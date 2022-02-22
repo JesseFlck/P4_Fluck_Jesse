@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -704,12 +704,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -1039,4 +1039,35 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+
+/* CSS AJOUTE */
+/* Modif size des p (l180) */
+
+
+.descriagence{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #645F7B!important;
+    width: 65%;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.descri2{
+    width: 45%;
+}
+
+.citation{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #645F7B!important;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-style: italic;
 }
