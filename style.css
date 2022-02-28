@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(90 79 49 / 88%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffaa8a!important;
 }
 
 .btn-atomic-tangerine {
@@ -1046,6 +1046,7 @@ h4 {
 /* CSS AJOUTE */
 /* Modif size des p (l180) */
 /* "min" des liens css et js retirés pour la page2 */
+/* modification des couleurs des textes et fonds sur les images */
 
 
 .descriagence{
@@ -1071,4 +1072,24 @@ h4 {
     font-size: 20px;
     line-height: 1.2em;
     font-style: italic;
+}
+
+.nav>li>a:hover{
+    text-decoration: underline;
+}
+
+.tc-whiteh1 {
+    color: #ffaa8a!important;
+    text-shadow: 1px 1px white;
+    background-color: #00000082;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5px;
+}
+
+.tc-whiteh3bas {
+    color: #ffaa8a!important;
+    background-color: #00000091;
+    margin-left: 25%;
+    margin-right: 25%;
 }
