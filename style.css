@@ -1102,3 +1102,12 @@ h4 {
 .tc-whitep{
     color: #000000!important;
 }
+
+.rowcontact{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowcontact>.col-sm-6:last-child{
+    padding-top: 30px;
+}
