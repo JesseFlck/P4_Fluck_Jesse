@@ -1109,6 +1109,8 @@ h4 {
 
 .col-sm-6 img {
     margin: auto;
+    max-width: 270px;
+    max-height: 270px;
 }
 
 
